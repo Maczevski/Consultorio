@@ -1,0 +1,13 @@
+<configuration>
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>logFile.log</file> <!-- Nome do arquivo de log -->
+        <append>true</append>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern> <!-- Formato do log -->
+        </encoder>
+    </appender>
+
+    <root level="ERROR"> <!-- Nível de log global (desligado) -->
+        <appender-ref ref="FILE"/> <!-- Redirecionar todos os logs para o arquivo -->
+    </root>
+</configuration>

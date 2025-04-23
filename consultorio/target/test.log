@@ -1,0 +1,4 @@
+DEBUG [main]: o.j.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+DEBUG [main]: o.h.c.i.RegionFactoryInitiator - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+DEBUG [main]: o.h.c.i.RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+WARN  [main]: o.h.o.c.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
